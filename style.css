@@ -9,13 +9,12 @@ body {
 
   .container{
     display: grid;
-    grid-template-rows: 7fr 1fr 1fr;
-    min-height: 100vh;
+    grid-template-rows: 500px 800px 500px; 
     background: linear-gradient(135deg, #71b7e6, #9b59b6);
   }
 
   .header{
-    
+
     display: grid;
     grid-template-columns: 0.6fr 0.9fr;
     margin: 150px;
@@ -25,8 +24,11 @@ body {
   }
 
   .my-picture{
-    background: grey; 
+    background-image: url(/images/20230521_090627.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
   }
+  
 
   .about-me{
     display: grid;
@@ -50,6 +52,8 @@ body {
   }
 
   .container-body{
+    display: grid;
+    grid-area: 1fr 4fr 4fr;
     background-color: white;
     border: 1px solid;
   }
