@@ -169,3 +169,33 @@ div.description{
   grid-area: card6;
   box-shadow: 0 3px 3px 3px rgb(189, 182, 182);
 }
+
+.footer{
+  background-color: #0891b2;
+  grid-area: footer;
+
+  grid-template-columns: 100% / 2;
+  grid-template-areas:
+    "contactMe picture";
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.contact-me{
+  grid-area: contactMe;
+  display: grid;
+  margin-left: 100px;
+  grid-template-areas: "contact-title"
+                       "content1"
+                       "content2"
+                       "content";
+}
+
+.contact-me-picture{
+  grid-area: picture;
+}
+
+.content1{
+  grid-area: content1;
+}
+
