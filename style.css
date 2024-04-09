@@ -34,7 +34,7 @@ body {
   display: grid;
   grid-area: header-1;
   height: 450px;
-  background-image: url(images/20230521_090627.jpg);
+  background-image: url(images/image00005.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -171,14 +171,15 @@ div.description{
 }
 
 .footer{
+  display: grid;
   background-color: #0891b2;
   grid-area: footer;
-
-  grid-template-columns: 100% / 2;
+  grid-template-columns: 3fr 4fr;
   grid-template-areas:
     "contactMe picture";
-  margin-top: 50px;
-  margin-bottom: 50px;
+  padding-top: 50px;
+  padding-bottom: 100px;
+
 }
 
 .contact-me{
@@ -188,7 +189,13 @@ div.description{
   grid-template-areas: "contact-title"
                        "content1"
                        "content2"
-                       "content";
+                       "content3"
+                       "content4"
+                       "content5";
+}
+
+.contatct-title{
+  grid-area: contact-title;
 }
 
 .contact-me-picture{
@@ -197,5 +204,20 @@ div.description{
 
 .content1{
   grid-area: content1;
+  border: 1px solid red;
+}
+
+div.contact-me-picture{
+  display: grid;
+  grid-area: picture;
+  height: 470px;
+  margin-right: 100px;
+  background-image: url(images/20230521_090628.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.content3{
+  border: 1px solid red;
 }
 
