@@ -186,38 +186,59 @@ div.description{
   grid-area: contactMe;
   display: grid;
   margin-left: 100px;
+  margin-bottom: 80px;
   grid-template-areas: "contact-title"
                        "content1"
                        "content2"
                        "content3"
                        "content4"
                        "content5";
+
 }
 
 .contatct-title{
   grid-area: contact-title;
 }
 
-.contact-me-picture{
-  grid-area: picture;
-}
 
-.content1{
-  grid-area: content1;
-  border: 1px solid red;
-}
 
 div.contact-me-picture{
   display: grid;
   grid-area: picture;
-  height: 470px;
+  height: 520px;
   margin-right: 100px;
   background-image: url(images/20230521_090628.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.content3{
-  border: 1px solid red;
+.contact-me-picture{
+  grid-area: picture;
 }
 
+
+.content1{
+  padding-bottom:0px ;
+  grid-area: content1;
+}
+
+
+.content2{
+  grid-area:content2;
+}
+
+.content3{
+  grid-area:content3;
+  display: flex;
+
+}
+
+.content4{
+  grid-area:content4;
+  display: flex;
+}
+
+.content5{
+  grid-area:content5;
+  display: flex;
+}
