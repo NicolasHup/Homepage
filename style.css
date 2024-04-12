@@ -242,3 +242,53 @@ div.contact-me-picture{
   grid-area:content5;
   display: flex;
 }
+
+.icon-phone{
+  display: flex;
+  align-self: center;
+  width: 25px;
+  height: 20px;
+  background: url(/images/footer-icons/phone.png) no-repeat;
+  background-size: contain;
+  margin-right: 8px;
+}
+
+.icon-email{
+  display: flex;
+  width: 25px;
+  height: 20px;
+  background: url(/images/footer-icons/email-outline.png) no-repeat;
+  background-size: contain;
+  align-self: center;
+  margin-right: 8px;
+}
+
+.icon-socialMedia1{
+  display: flex;
+  width: 35px;
+  height: 35px;
+  background: url(/images/footer-icons/github.png) no-repeat;
+  background-size: contain;
+  align-self: center;
+  margin-right: 8px;
+}
+
+.icon-socialMedia2{
+  display: flex;
+  width: 35px;
+  height: 35px;
+  background: url(/images/footer-icons/linkedin.png) no-repeat;
+  background-size: contain;
+  align-self: center;
+  margin-right: 8px;
+}
+
+.icon-socialmedia3{
+  display: flex;
+  width: 35px;
+  height: 35px;
+  background: url(/images/footer-icons/twitter.png) no-repeat;
+  background-size: contain;
+  align-self: center;
+  margin-right: 8px;
+}
