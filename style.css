@@ -292,3 +292,11 @@ div.contact-me-picture{
   align-self: center;
   margin-right: 8px;
 }
+
+div.project-title{
+  display: flex;
+}
+
+div.icon1{
+  background-color: #9e1c1c;
+}
