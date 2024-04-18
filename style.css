@@ -137,6 +137,7 @@ div.project-title{
   padding-left: 15px;
   padding-right: 15px;
   padding-top: 10px;
+  display: flex;
 }
 
 div.description{
@@ -293,10 +294,16 @@ div.contact-me-picture{
   margin-right: 8px;
 }
 
-div.project-title{
-  display: flex;
-}
+
+
 
 div.icon1{
-  background-color: #9e1c1c;
+  margin-left: 126px;
+  width: 25px;
+  background: url(/images/icons/github-custom.png);
+}
+div.icon2{
+  margin-left: 11px;
+  width: 25px;
+  background: url(/images/icons/arrow-top-right-bold-box-outline-custom.png);
 }
