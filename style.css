@@ -23,7 +23,6 @@ body {
   grid-template-columns: 3fr 4fr;
   grid-template-areas:
     "header-1 header-2";
-  border: 1px solid red;
   margin-left: 100px;
   margin-right: 100px;
   margin-top: 50px;
@@ -34,21 +33,26 @@ body {
   display: grid;
   grid-area: header-1;
   height: 450px;
-  background-image: url(images/image00005.jpeg);
+  background-color:#d88f39 ;
   background-repeat: no-repeat;
   background-size: cover;
+  box-shadow: 1px 1px  3px rgb(189, 182, 182);
 }
 
 .about-me{
-  border: 1px solid yellow;border: 1px solid yellow;
+  
   margin-top: 45px;
   margin-bottom: 45px;
+  box-shadow: 1px 1px  3px rgb(189, 182, 182);
 }
 
 .about-me-3{
-  border: 1px solid green;
-  margin-top: 10px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: end;
+  margin-top: 40px;
   margin-bottom: 10px;
+  margin-right: 20px;
 }
 .body-tittle{
   margin-left: 100px;
