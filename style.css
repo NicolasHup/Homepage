@@ -307,3 +307,11 @@ div.icon2{
   width: 25px;
   background: url(/images/icons/arrow-top-right-bold-box-outline-custom.png);
 }
+
+.myName{
+  display: flex;
+  justify-content: center;
+  color: white;
+  align-items: end;
+  font-size: x-large;
+}
