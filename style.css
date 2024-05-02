@@ -66,6 +66,7 @@ div.container-body{
   grid-template-areas: "row1"
                        "row2"
                        "row3";
+  container-type: inline-size;
 
 }
 
@@ -319,3 +320,15 @@ div.icon2{
   align-items: end;
   font-size: x-large;
 }
+
+
+
+
+
+
+@media (max-width: 800px) {
+  .container-body{
+    background-color: #d88f39;
+  }
+}
+
