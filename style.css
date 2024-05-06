@@ -54,6 +54,15 @@ body {
   margin-bottom: 10px;
   margin-right: 20px;
 }
+
+div.container-body{
+  display: grid;
+  grid-template-areas: "row1"
+                       "row2"
+                       "row3";
+
+}
+
 .body-tittle{
   margin-left: 100px;
   margin-right: 100px;
@@ -61,14 +70,6 @@ body {
   margin-bottom: 10px;
 }
 
-div.container-body{
-  display: grid;
-  grid-template-areas: "row1"
-                       "row2"
-                       "row3";
-  container-type: inline-size;
-
-}
 
 .card-row-1{
   grid-area: row2;
@@ -91,10 +92,7 @@ div.container-body{
   grid-template-areas: "card4 card5 card6"; 
 }
 
-.card-1{
-  grid-area: card1;
-  box-shadow: 0 2px 3px 3px rgb(189, 182, 182);
-}
+
 
 div.card-top-1{
   display: flex;
@@ -149,6 +147,11 @@ div.description{
   padding-left: 15px;
   padding-right: 15px;
   padding-bottom: 50px;
+}
+
+.card-1{
+  grid-area: card1;
+  box-shadow: 0 2px 3px 3px rgb(189, 182, 182);
 }
 
 .card-2{
@@ -212,7 +215,7 @@ div.contact-me-picture{
   display: grid;
   grid-area: picture;
   height: 520px;
-  margin-right: 100px;
+  width: 620px;
   background-image: url(images/20230521_090628.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -326,9 +329,38 @@ div.icon2{
 
 
 
-@media (max-width: 800px) {
-  .container-body{
-    background-color: #d88f39;
+@media screen and (max-width: 400px) {
+  .header{
+    display: block;
+  }
+  .card-row-1{
+    display: block;
+  }
+
+  .card-1, .card-2, .card-4, .card-5{
+    margin-bottom: 30px;
+  }
+
+  .card-row-2
+  {
+    display: block;
+  }
+  .footer{
+    display: block;
+  }
+  .contact-me-picture{
+    background-color: red;
+    margin-right: 0px;
   }
 }
+
+
+
+
+
+
+
+
+
+
 
