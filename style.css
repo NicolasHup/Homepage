@@ -357,6 +357,50 @@ div.icon2{
 
 
 
+@media screen and (min-width: 425px) {
+
+  .container-body{
+    background-color: #9e1c1c;
+    display: grid;
+    grid-template-areas: "row1"
+                         "row2"
+                         "row3"
+                         "row4";
+  }
+
+  .body-tittle{
+    margin-left: 100px;
+    margin-right: 100px;
+    grid-area: row1;
+    margin-bottom: 10px;
+  }
+
+  .card-row-1{
+    grid-area: row2;
+    column-gap: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 50px;
+    display: grid;
+    grid-template-columns: 100% / 2;
+    grid-template-areas: "card1 card2"; 
+  }
+
+  .card-row-2{
+    grid-area: row3;
+    column-gap: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 50px;
+    display: grid;
+    grid-template-columns: 100% / 2;
+    grid-template-areas: "card3 card4"; 
+  }
+  
+}
+
+
+
 
 
 
