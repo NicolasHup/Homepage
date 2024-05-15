@@ -59,7 +59,8 @@ div.container-body{
   display: grid;
   grid-template-areas: "row1"
                        "row2"
-                       "row3";
+                       "row3"
+                       "row4";
 
 }
 
@@ -90,6 +91,18 @@ div.container-body{
   display: grid;
   grid-template-columns: 100% / 3;
   grid-template-areas: "card4 card5 card6"; 
+}
+
+
+.card-row-3{
+  grid-area: row4;
+  column-gap: 30px;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 50px;
+  display: grid;
+  grid-template-columns: 100% / 3;
+  grid-template-areas: "card5 card6"; 
 }
 
 
@@ -345,6 +358,10 @@ div.icon2{
   {
     display: block;
   }
+  .card-row-3
+  {
+    display: block;
+  }
   .footer{
     display: block;
   }
@@ -357,7 +374,7 @@ div.icon2{
 
 
 
-@media screen and (min-width: 425px) {
+@media screen and (min-width: 400px) {
 
   .container-body{
     background-color: #9e1c1c;
@@ -396,6 +413,7 @@ div.icon2{
     grid-template-columns: 100% / 2;
     grid-template-areas: "card3 card4"; 
   }
+  
   
 }
 
