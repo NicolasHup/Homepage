@@ -377,7 +377,6 @@ div.icon2{
 @media screen and (min-width: 400px) {
 
   .container-body{
-    background-color: #9e1c1c;
     display: grid;
     grid-template-areas: "row1"
                          "row2"
@@ -418,10 +417,13 @@ div.icon2{
 }
 
 
+@media screen and (min-width: 768px) {
 
+  .container-body{
+    background-color: #5e8f4d;
+  }
 
-
-
+}
 
 
 
