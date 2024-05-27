@@ -60,7 +60,7 @@ div.container-body{
   grid-template-areas: "row1"
                        "row2"
                        "row3"
-                       "row4";
+                       ;
 
 }
 
@@ -90,19 +90,15 @@ div.container-body{
   margin-bottom: 50px;
   display: grid;
   grid-template-columns: 100% / 3;
-  grid-template-areas: "card4 card5 card6"; 
+  grid-template-areas: "card4 card3"; 
 }
 
 
 .card-row-3{
-  grid-area: row4;
   column-gap: 30px;
   margin-left: 100px;
   margin-right: 100px;
-  margin-bottom: 50px;
-  display: grid;
-  grid-template-columns: 100% / 3;
-  grid-template-areas: "card5 card6"; 
+  margin-bottom: 50px; 
 }
 
 
@@ -342,7 +338,7 @@ div.icon2{
 
 
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 426px) {
   .header{
     display: block;
   }
@@ -374,7 +370,7 @@ div.icon2{
 
 
 
-@media screen and (min-width: 400px) {
+@media screen and (min-width: 427px) {
 
   .container-body{
     display: grid;
@@ -412,19 +408,50 @@ div.icon2{
     grid-template-columns: 100% / 2;
     grid-template-areas: "card3 card4"; 
   }
-  
+
+ .card-row-3{
+  display: flex;
+ }
   
 }
 
-
-@media screen and (min-width: 768px) {
+/*
+@media screen and (min-width: 769px) {
 
   .container-body{
-    background-color: #5e8f4d;
+    
+
+  }
+
+  .container-body{
+    display: grid;
+    grid-template-areas: "row1"
+                         "row2"
+                         "row3"
+                         "row4";
+  }
+
+  .body-tittle{
+    margin-left: 100px;
+    margin-right: 100px;
+    grid-area: row1;
+    margin-bottom: 10px;
+  }
+
+  .card-row-1{
+    background-color: #8f6c4d;
+    grid-area: row2;
+    column-gap: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 50px;
+    display: grid;
+    grid-template-columns: 100% / 3;
+    grid-template-areas: "card3 card2"; 
   }
 
 }
 
 
-
+*/
 
