@@ -13,6 +13,7 @@ body {
   display: grid;
   grid-template-areas: 
         "header"
+        "mywork"
         "container-body"
         "footer";
 }
@@ -27,6 +28,10 @@ body {
   margin-right: 100px;
   margin-top: 50px;
   margin-bottom: 50px;
+}
+
+.body-title{
+  grid-area: mywork;
 }
 
 .my-picture{
@@ -55,52 +60,10 @@ body {
   margin-right: 20px;
 }
 
+
 div.container-body{
   display: grid;
-  grid-template-areas: "row1"
-                       "row2"
-                       "row3"
-                       ;
-
 }
-
-.body-tittle{
-  margin-left: 100px;
-  margin-right: 100px;
-  grid-area: row1;
-  margin-bottom: 10px;
-}
-
-
-.card-row-1{
-  grid-area: row2;
-  column-gap: 30px;
-  margin-left: 100px;
-  margin-right: 100px;
-  margin-bottom: 50px;
-  display: grid;
-  grid-template-columns: 100% / 3;
-  grid-template-areas: "card1 card2 card3"; 
-}
-.card-row-2{
-  grid-area: row3;
-  column-gap: 30px;
-  margin-left: 100px;
-  margin-right: 100px;
-  margin-bottom: 50px;
-  display: grid;
-  grid-template-columns: 100% / 3;
-  grid-template-areas: "card4 card3"; 
-}
-
-
-.card-row-3{
-  column-gap: 30px;
-  margin-left: 100px;
-  margin-right: 100px;
-  margin-bottom: 50px; 
-}
-
 
 
 div.card-top-1{
@@ -156,36 +119,6 @@ div.description{
   padding-left: 15px;
   padding-right: 15px;
   padding-bottom: 50px;
-}
-
-.card-1{
-  grid-area: card1;
-  box-shadow: 0 2px 3px 3px rgb(189, 182, 182);
-}
-
-.card-2{
-  grid-area: card2;
-  box-shadow: 0 3px 3px 3px rgb(189, 182, 182);
-}
-
-.card-3{
-  grid-area: card3;
-  box-shadow: 0 3px 3px 3px rgb(189, 182, 182);
-}
-
-.card-4{
-  grid-area: card4;
-  box-shadow: 0 3px 3px 3px rgb(189, 182, 182);
-}
-
-.card-5{
-  grid-area: card5;
-  box-shadow: 0 3px 3px 3px rgb(189, 182, 182);
-}
-
-.card-6{
-  grid-area: card6;
-  box-shadow: 0 3px 3px 3px rgb(189, 182, 182);
 }
 
 .footer{
@@ -338,26 +271,24 @@ div.icon2{
 
 
 
-@media screen and (max-width: 426px) {
+
+
+
+
+@media screen and (max-width: 443px) {
   .header{
+    margin-left: 50px;
+    margin-right: 50px;
     display: block;
   }
-  .card-row-1{
+  .container-body{
+   
     display: block;
+    padding-left: 50px;
+    padding-right: 50px;
   }
 
-  .card-1, .card-2, .card-4, .card-5{
-    margin-bottom: 30px;
-  }
-
-  .card-row-2
-  {
-    display: block;
-  }
-  .card-row-3
-  {
-    display: block;
-  }
+ 
   .footer{
     display: block;
   }
@@ -369,89 +300,42 @@ div.icon2{
 
 
 
-
-@media screen and (min-width: 427px) {
-
+@media screen and (min-width: 444px) {
   .container-body{
     display: grid;
-    grid-template-areas: "row1"
-                         "row2"
-                         "row3"
-                         "row4";
-  }
-
-  .body-tittle{
-    margin-left: 100px;
-    margin-right: 100px;
-    grid-area: row1;
-    margin-bottom: 10px;
-  }
-
-  .card-row-1{
-    grid-area: row2;
-    column-gap: 30px;
-    margin-left: 100px;
-    margin-right: 100px;
-    margin-bottom: 50px;
-    display: grid;
-    grid-template-columns: 100% / 2;
-    grid-template-areas: "card1 card2"; 
-  }
-
-  .card-row-2{
-    grid-area: row3;
-    column-gap: 30px;
-    margin-left: 100px;
-    margin-right: 100px;
-    margin-bottom: 50px;
-    display: grid;
-    grid-template-columns: 100% / 2;
-    grid-template-areas: "card3 card4"; 
-  }
-
- .card-row-3{
-  display: flex;
- }
-  
-}
-
-/*
-@media screen and (min-width: 769px) {
-
-  .container-body{
+    grid-template-areas: 
+        "cardOne CardTwo CardThree"
+        "cardFour CardFive CardSix";
     
-
   }
 
-  .container-body{
+
+  .card-1{
     display: grid;
-    grid-template-areas: "row1"
-                         "row2"
-                         "row3"
-                         "row4";
+    grid-area: cardOne;
+    
   }
 
-  .body-tittle{
-    margin-left: 100px;
-    margin-right: 100px;
-    grid-area: row1;
-    margin-bottom: 10px;
-  }
-
-  .card-row-1{
-    background-color: #8f6c4d;
-    grid-area: row2;
-    column-gap: 30px;
-    margin-left: 100px;
-    margin-right: 100px;
-    margin-bottom: 50px;
+  .card-2{
     display: grid;
-    grid-template-columns: 100% / 3;
-    grid-template-areas: "card3 card2"; 
+    grid-area: CardTwo;
+    
   }
+
+  .card-3{
+    display: grid;
+    grid-area: CardThree;
+    
+  }
+
 
 }
 
 
-*/
 
+
+/*.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
