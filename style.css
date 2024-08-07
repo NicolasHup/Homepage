@@ -286,10 +286,117 @@ div.icon2{
     display: block;
   }
   .container-body{
-   
-    display: block;
-    padding-left: 50px;
-    padding-right: 50px;
+    display: grid;
+    grid-template-areas: 
+        "cardOne"
+        "CardTwo"
+        "CardThree" 
+        "cardFour"
+        "CardFive"
+        "CardSix";
+    row-gap: 40px;
+    margin-left: 150px;
+    margin-right: 150px;
+    
+  }
+
+  .card-1{
+    display: grid;
+    grid-area: cardOne;
+    box-shadow: 1px 1px  3px rgb(189, 182, 182);
+    
+  }
+
+  .card-2{
+    display: grid;
+    grid-area: CardTwo;
+    box-shadow: 1px 1px  3px rgb(189, 182, 182);
+    
+  }
+
+  .card-3{
+    display: grid;
+    grid-area: CardThree;
+    box-shadow: 1px 1px  3px rgb(189, 182, 182);
+    
+  }
+
+  .card-4{
+    display: grid;
+    grid-area: cardFour;
+    box-shadow: 1px 1px  3px rgb(189, 182, 182);
+  }
+
+  .card-5{
+    display: grid;
+    grid-area: CardFive;
+    box-shadow: 1px 1px  3px rgb(189, 182, 182);
+  }
+
+  
+  .card-6{
+    display: grid;
+    grid-area: CardSix;
+    box-shadow: 1px 1px  3px rgb(189, 182, 182);
+  }
+
+}
+
+
+
+@media screen and (min-width: 1024px) {
+  .container-body{
+    display: grid;
+    grid-template-areas: 
+        "cardOne CardTwo CardThree"
+        "cardFour CardFive CardSix";
+    column-gap: 30px;
+    row-gap: 40px;
+
+    margin-left: 100px;
+    margin-right: 100px;
+    
+  }
+
+
+  .card-1{
+    display: grid;
+    grid-area: cardOne;
+    box-shadow: 1px 1px  3px rgb(189, 182, 182);
+    
+  }
+
+  .card-2{
+    display: grid;
+    grid-area: CardTwo;
+    box-shadow: 1px 1px  3px rgb(189, 182, 182);
+    
+  }
+
+  .card-3{
+    display: grid;
+    grid-area: CardThree;
+    box-shadow: 1px 1px  3px rgb(189, 182, 182);
+    
+  }
+
+  .card-4{
+    display: grid;
+    grid-area: cardFour;
+    box-shadow: 1px 1px  3px rgb(189, 182, 182);
+  }
+
+  .card-5{
+    display: grid;
+    grid-area: CardFive;
+    box-shadow: 1px 1px  3px rgb(189, 182, 182);
+  }
+
+  
+  .card-6{
+    display: grid;
+    grid-area: CardSix;
+    box-shadow: 1px 1px  3px rgb(189, 182, 182);
   }
 
  
@@ -300,6 +407,9 @@ div.icon2{
     background-color: red;
     margin-right: 0px;
   }
+
+
+  
 }
 
 
@@ -308,9 +418,10 @@ div.icon2{
     display: grid;
     grid-template-areas: 
         "cardOne CardTwo "
-        "cardFour CardThree"
+        "CardThree cardFour"
         "CardFive CardSix";
-    column-gap: 20px;
+    column-gap: 30px;
+    row-gap: 40px;
     
   }
 
@@ -324,21 +435,42 @@ div.icon2{
   .card-1{
     display: grid;
     grid-area: cardOne;
+    box-shadow: 1px 1px  3px rgb(189, 182, 182);
     
   }
 
   .card-2{
     display: grid;
     grid-area: CardTwo;
+    box-shadow: 1px 1px  3px rgb(189, 182, 182);
     
   }
 
   .card-3{
     display: grid;
     grid-area: CardThree;
+    box-shadow: 1px 1px  3px rgb(189, 182, 182);
     
   }
 
+  .card-4{
+    display: grid;
+    grid-area: cardFour;
+    box-shadow: 1px 1px  3px rgb(189, 182, 182);
+  }
+
+  .card-5{
+    display: grid;
+    grid-area: CardFive;
+    box-shadow: 1px 1px  3px rgb(189, 182, 182);
+  }
+
+  
+  .card-6{
+    display: grid;
+    grid-area: CardSix;
+    box-shadow: 1px 1px  3px rgb(189, 182, 182);
+  }
 
 }
 
@@ -350,7 +482,8 @@ div.icon2{
     grid-template-areas: 
         "cardOne CardTwo CardThree"
         "cardFour CardFive CardSix";
-    column-gap: 20px;
+    column-gap: 30px;
+    row-gap: 40px;
 
     margin-left: 100px;
     margin-right: 100px;
@@ -361,19 +494,41 @@ div.icon2{
   .card-1{
     display: grid;
     grid-area: cardOne;
+    box-shadow: 1px 1px  3px rgb(189, 182, 182);
     
   }
 
   .card-2{
     display: grid;
     grid-area: CardTwo;
+    box-shadow: 1px 1px  3px rgb(189, 182, 182);
     
   }
 
   .card-3{
     display: grid;
     grid-area: CardThree;
+    box-shadow: 1px 1px  3px rgb(189, 182, 182);
     
+  }
+
+  .card-4{
+    display: grid;
+    grid-area: cardFour;
+    box-shadow: 1px 1px  3px rgb(189, 182, 182);
+  }
+
+  .card-5{
+    display: grid;
+    grid-area: CardFive;
+    box-shadow: 1px 1px  3px rgb(189, 182, 182);
+  }
+
+  
+  .card-6{
+    display: grid;
+    grid-area: CardSix;
+    box-shadow: 1px 1px  3px rgb(189, 182, 182);
   }
 
 
