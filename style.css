@@ -297,6 +297,8 @@ div.icon2{
     row-gap: 40px;
     margin-left: 150px;
     margin-right: 150px;
+    margin-bottom: 80px;
+    margin-bottom: 80px;
     
   }
 
@@ -340,6 +342,11 @@ div.icon2{
     box-shadow: 1px 1px  3px rgb(189, 182, 182);
   }
 
+  .footer{
+    display: block;
+  }
+  
+  
 }
 
 
@@ -355,6 +362,7 @@ div.icon2{
 
     margin-left: 100px;
     margin-right: 100px;
+    margin-bottom: 80px;
     
   }
 
@@ -400,9 +408,6 @@ div.icon2{
   }
 
  
-  .footer{
-    display: block;
-  }
   .contact-me-picture{
     background-color: red;
     margin-right: 0px;
@@ -429,6 +434,7 @@ div.icon2{
     display: grid;
     margin-left: 100px;
     margin-right: 100px;
+    margin-bottom: 80px;
   }
 
 
