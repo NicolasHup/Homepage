@@ -162,7 +162,7 @@ div.contact-me-picture{
   grid-area: picture;
   height: 520px;
   width: 620px;
-  background-image: url(/images/20230521_090628.jpg);
+  background-image: url(./images/20230521_090628.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -203,7 +203,7 @@ div.contact-me-picture{
   align-self: center;
   width: 25px;
   height: 20px;
-  background: url(/images/icons/phone.png) no-repeat;
+  background: url(./images/icons/phone.png) no-repeat;
   background-size: contain;
   margin-right: 8px;
 }
@@ -212,7 +212,7 @@ div.contact-me-picture{
   display: flex;
   width: 25px;
   height: 20px;
-  background: url(/images/icons/email-outline.png) no-repeat;
+  background: url(./images/icons/email-outline.png) no-repeat;
   background-size: contain;
   align-self: center;
   margin-right: 8px;
@@ -222,7 +222,7 @@ div.contact-me-picture{
   display: flex;
   width: 35px;
   height: 35px;
-  background: url(/images/icons/github.png) no-repeat;
+  background: url(./images/icons/github.png) no-repeat;
   background-size: contain;
   align-self: center;
   margin-right: 8px;
@@ -232,7 +232,7 @@ div.contact-me-picture{
   display: flex;
   width: 35px;
   height: 35px;
-  background: url(/images/icons/linkedin.png) no-repeat;
+  background: url(./images/icons/linkedin.png) no-repeat;
   background-size: contain;
   align-self: center;
   margin-right: 8px;
@@ -242,7 +242,7 @@ div.contact-me-picture{
   display: flex;
   width: 35px;
   height: 35px;
-  background: url(/images/icons/twitter.png) no-repeat;
+  background: url(./images/icons/twitter.png) no-repeat;
   background-size: contain;
   align-self: center;
   margin-right: 8px;
@@ -254,12 +254,12 @@ div.contact-me-picture{
 div.icon1{
   margin-left: 126px;
   width: 25px;
-  background: url(/images/icons/github-custom.png);
+  background: url(./images/icons/github-custom.png);
 }
 div.icon2{
   margin-left: 11px;
   width: 25px;
-  background: url(/images/icons/arrow-top-right-bold-box-outline-custom.png);
+  background: url(./images/icons/arrow-top-right-bold-box-outline-custom.png);
 }
 
 .myName{
