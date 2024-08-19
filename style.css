@@ -162,7 +162,7 @@ div.contact-me-picture{
   grid-area: picture;
   height: 520px;
   width: 620px;
-  background-image: url(images/20230521_090628.jpg);
+  background-image: url(/images/20230521_090628.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
