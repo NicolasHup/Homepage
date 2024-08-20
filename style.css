@@ -345,6 +345,17 @@ div.icon2{
   .footer{
     display: block;
   }
+
+  div.icon1{
+    margin-left: 100px;
+    width: 25px;
+    background: url(images/icons/github-custom.png);
+  }
+  div.icon2{
+    margin-left: 11px;
+    width: 25px;
+    background: url(images/icons/arrow-top-right-bold-box-outline-custom.png);
+  }
   
   
 }
@@ -413,7 +424,16 @@ div.icon2{
     margin-right: 0px;
   }
 
-
+  div.icon1{
+    margin-left: 10px;
+    width: 25px;
+    background: url(images/icons/github-custom.png);
+  }
+  div.icon2{
+    margin-left: 11px;
+    width: 25px;
+    background: url(images/icons/arrow-top-right-bold-box-outline-custom.png);
+  }
   
 }
 
@@ -478,6 +498,17 @@ div.icon2{
     box-shadow: 1px 1px  3px rgb(189, 182, 182);
   }
 
+  div.icon1{
+    margin-left: 100px;
+    width: 25px;
+    background: url(images/icons/github-custom.png);
+  }
+  div.icon2{
+    margin-left: 11px;
+    width: 25px;
+    background: url(images/icons/arrow-top-right-bold-box-outline-custom.png);
+  }
+
 }
 
 
@@ -537,14 +568,19 @@ div.icon2{
     box-shadow: 1px 1px  3px rgb(189, 182, 182);
   }
 
+  div.icon1{
+    margin-left: 200px;
+    width: 25px;
+    background: url(images/icons/github-custom.png);
+  }
+  div.icon2{
+    margin-left: 11px;
+    width: 25px;
+    background: url(images/icons/arrow-top-right-bold-box-outline-custom.png);
+  }
+
 
 }
 
 
 
-
-/*.card-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
